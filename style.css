@@ -1,0 +1,61 @@
+﻿/*
+Theme Name: Yoper Theme
+Theme URI: https://example.com/yoper-theme
+Author: Yoper
+Author URI: https://example.com
+Description: Base theme for Yoper multisite installations.
+Version: 0.1.0
+Requires at least: 6.0
+Tested up to: 6.7
+Requires PHP: 7.4
+Text Domain: yoper-theme
+Tags: custom-menu, translation-ready, flexible-header
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+    color: #0f172a;
+    background: #f8fafc;
+    line-height: 1.6;
+}
+
+a {
+    color: #0ea5e9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+}
+
+.site-header, .site-footer {
+    background: #0f172a;
+    color: #f8fafc;
+    padding: 1.25rem 1.5rem;
+}
+
+.site-header a {
+    color: #f8fafc;
+    font-weight: 600;
+}
+
+.site-footer {
+    text-align: center;
+}
