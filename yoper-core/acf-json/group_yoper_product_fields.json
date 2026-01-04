@@ -1,0 +1,179 @@
+{
+    "key": "group_yoper_product_fields",
+    "title": "Produtos",
+    "fields": [
+        {
+            "key": "field_yoper_product_sku",
+            "label": "SKU",
+            "name": "yoper_product_sku",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Opcional",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_yoper_product_unit",
+            "label": "Unidade",
+            "name": "yoper_product_unit",
+            "aria-label": "",
+            "type": "select",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "choices": {
+                "un": "un",
+                "kg": "kg",
+                "g": "g",
+                "l": "l",
+                "ml": "ml",
+                "cx": "cx"
+            },
+            "default_value": false,
+            "return_format": "value",
+            "multiple": 0,
+            "allow_null": 1,
+            "ui": 0,
+            "ajax": 0,
+            "placeholder": "",
+            "allow_custom": 0,
+            "search_placeholder": ""
+        },
+        {
+            "key": "field_yoper_product_category_text",
+            "label": "Categoria (texto)",
+            "name": "yoper_product_category_text",
+            "aria-label": "",
+            "type": "text",
+            "instructions": "Use categorias rápidas; taxonomia opcional.",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "maxlength": "",
+            "placeholder": ""
+        },
+        {
+            "key": "field_yoper_product_stock_min",
+            "label": "Estoque mínimo",
+            "name": "yoper_product_stock_min",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 0,
+            "min": 0,
+            "max": "",
+            "placeholder": "",
+            "step": "0.01",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_yoper_product_stock_current",
+            "label": "Estoque atual",
+            "name": "yoper_product_stock_current",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": 0,
+            "min": 0,
+            "max": "",
+            "placeholder": "",
+            "step": "0.01",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_yoper_product_cost_reference",
+            "label": "Custo de referência",
+            "name": "yoper_product_cost_reference",
+            "aria-label": "",
+            "type": "number",
+            "instructions": "Opcional",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "default_value": "",
+            "min": 0,
+            "max": "",
+            "placeholder": "",
+            "step": "0.01",
+            "prepend": "",
+            "append": ""
+        },
+        {
+            "key": "field_yoper_product_active",
+            "label": "Produto ativo",
+            "name": "yoper_product_active",
+            "aria-label": "",
+            "type": "true_false",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            },
+            "message": "",
+            "default_value": 1,
+            "ui": 0,
+            "ui_on_text": "",
+            "ui_off_text": ""
+        }
+    ],
+    "location": [
+        [
+            {
+                "param": "post_type",
+                "operator": "==",
+                "value": "yoper_product"
+            }
+        ]
+    ],
+    "menu_order": 0,
+    "position": "normal",
+    "style": "default",
+    "label_placement": "top",
+    "instruction_placement": "label",
+    "hide_on_screen": "",
+    "active": true,
+    "description": "Campos de produto para integração com estoque/contagem.",
+    "show_in_rest": 0,
+    "modified": 1767554101
+}
