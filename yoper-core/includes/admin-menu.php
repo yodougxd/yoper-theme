@@ -7,7 +7,7 @@ function yoper_core_register_admin_menu() {
     add_menu_page(
         __('Yoper Core', 'yoper-core'),
         __('Yoper Core', 'yoper-core'),
-        'manage_options',
+        'yoper_do_stock_count',
         'yoper-core',
         'yoper_core_render_dashboard',
         'dashicons-admin-generic',

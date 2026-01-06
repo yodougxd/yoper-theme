@@ -28,6 +28,7 @@ require_once YOPER_CORE_PATH . 'includes/cpt.php';
 require_once YOPER_CORE_PATH . 'includes/admin-menu.php';
 require_once YOPER_CORE_PATH . 'includes/settings-business.php';
 require_once YOPER_CORE_PATH . 'includes/capabilities.php';
+require_once YOPER_CORE_PATH . 'includes/cap-fix.php';
 require_once YOPER_CORE_PATH . 'includes/acf-json.php';
 
 register_activation_hook(__FILE__, 'yoper_core_activate');

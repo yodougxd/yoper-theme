@@ -1,0 +1,43 @@
+:root {
+    --loja-accent: #485fc7;
+    --loja-muted: #6b7280;
+    --loja-border: #e5e7eb;
+}
+
+.loja-container {
+    max-width: 1200px;
+}
+
+.loja-card {
+    border: 1px solid var(--loja-border);
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background: #fff;
+}
+
+.loja-actions {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.loja-table input[type="number"],
+.loja-table input[type="text"] {
+    width: 100%;
+}
+
+.loja-badge-low {
+    background: #fef2f2;
+    color: #b91c1c;
+    padding: 2px 6px;
+    border-radius: 999px;
+    font-size: 12px;
+}
+
+.loja-copy {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}

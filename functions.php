@@ -1,7 +1,4 @@
-﻿<?php
-if (!defined('ABSPATH')) {
-    exit;
-}
+<?php
 
 require_once get_template_directory() . '/includes/helpers.php';
 require_once get_template_directory() . '/includes/settings-business.php';
